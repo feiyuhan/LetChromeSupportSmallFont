@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LetChromeSupportSmallFont</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <p>Normal Font</p>
+        <p class="small">Small Font</p>
+        <p class="small_firefox">Small Font(will work in firefox and not work in chrome)</p>
+        <p class="chromesf" id="testWord1">Small Font work in chrome </p>
+        <p class="ChromeSmallFont real-font-size" id="mainChange">Small Font add ChromeSmallFont class to tell javascript to support small font and make sure the position is right <span> id = main</span></p>
+        <p>由于transform:scale是根据最上一层的字体的大小来确定大小的，但是每个浏览器的默认字体大小不一样，所以会看着大小不一样，然后我在main设定了默认字体为12px，这样的话进行缩放的时候就会每个浏览器都根据12x比例来进行缩放了。</p>
+
+    </div>
+
+    <script src="LetChromeSupportSmallFont.js"></script>
+</body>
+</html>

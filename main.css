@@ -1,0 +1,27 @@
+/**
+ * @Author: lt
+ * @Date:   2017-06-29T19:01:39+08:00
+ * @Last modified by:   lt
+ * @Last modified time: 2017-06-30T09:55:32+08:00
+ */
+.main{
+    width:300px;
+    margin: 0 auto;
+    font-size:12px;
+}
+.small{
+    font-size:12px;
+}
+.small_firefox{
+    font-size:8px;
+}
+.chromesf{
+    -webkit-transform:scale(0.666666667);
+    
+}
+.real-font-size{
+    font-size:8px;
+}
+span{
+    color:red;
+}
